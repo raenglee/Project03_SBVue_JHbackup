@@ -31,12 +31,12 @@
       <table>
         <thead>
           <tr>
-            <th class="p-5">말머리</th>
-            <th class="p-5">제목</th>
-            <th class="p-5">작성자</th>
-            <th class="p-5">작성일</th>
-            <th class="p-5">추천</th>
-            <th class="p-5">조회</th>
+            <th>말머리</th>
+            <th>제목</th>
+            <th>작성자</th>
+            <th>작성일</th>
+            <th>추천</th>
+            <th>조회</th>
           </tr>
         </thead>
         <tbody class="border-y divide-y">
