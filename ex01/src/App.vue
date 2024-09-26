@@ -6,24 +6,21 @@ import { RouterLink, RouterView } from 'vue-router'
   <header>
     <div>
       <nav>
-        <div>
-        <RouterLink to="/informationlist">정보 공유</RouterLink>
+        <div class="flex">
+          <div class="p-5">
+            <RouterLink to="/informationlist">정보 공유</RouterLink>
+          </div>
+          <div class="p-5">
+            <RouterLink to="/">동행 구인</RouterLink>
+          </div>
+          <div class="p-5">
+            <RouterLink to="/">자유 게시판</RouterLink>
+          </div>
         </div>
-        <div>
-        <RouterLink to="/">동행 구인</RouterLink>
-        </div>
-        <div>
-        <RouterLink to="/">자유 게시판</RouterLink>
-        </div>
-
       </nav>
     </div>
     <RouterView />
   </header>
-
-  
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
